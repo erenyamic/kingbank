@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728477672156",
+    "project_id": "kingbank-2c1ec",
+    "storage_bucket": "kingbank-2c1ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728477672156:android:086a7c86fa31151d918a19",
+        "android_client_info": {
+          "package_name": "com.erenyamic.KingBank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728477672156-443uf5r57mehe8hgk6hj3j3qlnkfb6hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcsQKHDvRbR6ireZ9Q1kBtx6cqhZOrvQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728477672156-443uf5r57mehe8hgk6hj3j3qlnkfb6hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

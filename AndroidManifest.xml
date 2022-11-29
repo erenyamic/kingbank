@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erenyamic.KingBank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lion"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".support"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".changeLimit"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".creditCaltulation"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".invest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".transactions"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".profil"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".deposit_withdraw"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CreateNewCard"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Cards"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".done"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Assets"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".send_money"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".homepage"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".signup"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".trailer"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
